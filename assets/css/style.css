@@ -1,43 +1,41 @@
+/* Hover animations */
 .info-box-custom {
-  border: 1px solid #d8d8ff;
-  border-radius: 12px;
-  padding: 30px;
   text-align: center;
-  background: #fff;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
   transition: all 0.3s ease;
+  background: #fff;
 }
 
 .info-box-custom:hover {
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-  transform: translateY(-6px);
+  transform: translateY(-5px);
 }
 
-.info-box-custom .info-box-icon {
-  margin-bottom: 15px;
+.hover-scale:hover {
+  transform: scale(1.05);
 }
 
-.info-box-custom h3 {
-  color: #2C2C54;
-  font-size: 20px;
-  margin-bottom: 10px;
+.hover-rotate:hover {
+  transform: rotate(3deg);
 }
 
-.info-box-custom p {
-  color: #606060;
-  font-size: 15px;
-  line-height: 1.6;
+.hover-shadow:hover {
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
 }
 
+/* Button styling */
 .info-box-btn {
   display: inline-block;
   background: #6C63FF;
   color: #fff;
-  padding: 10px 20px;
-  border-radius: 8px;
+  padding: 10px 25px;
+  border-radius: 6px;
   text-decoration: none;
-  transition: 0.3s;
+  transition: all 0.3s ease;
 }
 
 .info-box-btn:hover {
-  background: #514ED8;
+  background: #4E48E0;
+  color: #fff;
 }
