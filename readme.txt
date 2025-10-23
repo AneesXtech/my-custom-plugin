@@ -17,3 +17,4 @@ A custom Elementor addon that provides an Info Box widget with SVG/image icons, 
 == Changelog ==
 = 1.0.0 =
 * Initial release
+git push origin main
